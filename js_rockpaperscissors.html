@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS_Project: Rock Paper Scissors</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+
+    //Practicing JS Fundamentals Pt3 "Functions"
+
+      //Practice 1.
+      function add7(num){
+        return num+7;
+      }
+      //Practice 2.
+      function multiply(num_1,num_2){
+        return (num_1*num_2);
+      }
+      //Practice 3.
+      function capitalize(any_string){
+        let first_letter = any_string.slice(0,1);
+        let rest_of_letters = any_string.slice(1);
+        let first_letter_caps= first_letter.toUpperCase();
+        let rest_of_letters_decap=rest_of_letters.toLowerCase();
+        return (first_letter_caps+rest_of_letters_decap);
+      }
+      //Practice 4.
+      function lastLetter(any_string){
+        let last_letter = any_string.slice(any_string.length-1);
+        return last_letter;
+      }
+  </script>
+</body>
+</html>
